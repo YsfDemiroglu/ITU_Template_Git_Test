@@ -476,7 +476,7 @@
         }
 %================================== SON SAYFAYA ÖZGEÇMİŞ EKLENİYOR ====================================
 \AtEndDocument{
-    \th@ozgecmispage
+    %\th@ozgecmispage
 }
 
 %==================== CHAPTER VE SECTION TÜRKÇE/İNGİLİZCE İSİM VE FONT TANIMLARI ======================
