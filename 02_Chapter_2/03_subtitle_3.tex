@@ -1,0 +1,233 @@
+\section{Landscape-oriented, full-page table}
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gub rgren, no sea takimata sanctus est Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut lab ore sit et dolore magna.
+
+% ---------------------------------------------------------------- %
+% Page numbers must be on the bottom-middle of short side (when    %
+% portrait-oriented), or bottom-middle of long side (when	       %
+% landscape-oriented)						                       %
+% ---------------------------------------------------------------- %
+% Odd page landscape table and page numbering - SBÖ		
+\begin{landscape}
+	\thispagestyle{empty}
+%	\vspace*{-6mm}
+%	\begin{changemargin}{0.4mm}{0mm}{0mm} %Set all the margins to zero - SBÖ
+	\begin{table*}[htb!]
+		{\setlength{\tabcolsep}{14pt}
+			%\hspace*{5mm}
+			%\vspace*{-6mm}
+			\caption{Prof. Dr. Galip TEPEHAN \,\, Captioning in landscape-oriented pages:
+				the most important aspect is to align the lines horizontally.}
+			\begin{center}
+				\vspace{-6mm}
+				\begin{tabular}{lccrrrrr}
+					\hline\hline
+					\multirow{2}{*}{Parametre} & \multirow{2}{*}{Column 2} & \multirow{2}{*}{Column 3} & \multicolumn{3}{c|}{Column 4} & \multicolumn{2}{c}{Column 5}\\ \cline{4-8}
+					& & & Subcolumn & Subcolumn & Subcolumn & Subcolumn & Subcolumn\\
+					\hline
+					Row 1 & -7.680442 & 7.6986348 & 0.00 & 0.00 & 0.00 & 12 & 12 \\
+					Row 2 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					Row 3 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+					Row 4 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					Row 5 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+					Row 6 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					Row 7 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+					Row 8 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					Row 9 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+					Row 10 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					Row 11 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+					Row 12 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					Row 13 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+					Row 14 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					Row 15 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+					\hline
+				\end{tabular}
+			\end{center}
+			\begin{center}
+				\label{Table2.3}
+			\end{center}
+		}
+	\end{table*}
+% Set the page number on the right side for odd numbered pages
+		\begin{tikzpicture}[remember picture,overlay]
+		\node[xshift=-10mm+148.5mm, yshift=2mm-210mm+30mm] (number) at (current page text area.east) {\thepage};
+		\end{tikzpicture}
+%   \end{changemargin}
+\end{landscape}
+
+% ---------------------------------------------------------------- %
+% Page numbers must be on the bottom-middle of short side (when    %
+% portrait-oriented), or bottom-middle of long side (when	       %
+% landscape-oriented)						                       %
+% ---------------------------------------------------------------- %
+% Even page landscape table and page numbering - SBÖ		
+\begin{landscape}
+	\thispagestyle{empty}
+	%\vspace*{-6mm}
+%	\begin{changemargin}{0.4mm}{0mm}{0mm} %Set all the margins to zero - SBÖ
+		\begin{table*}[htb!]
+			{\setlength{\tabcolsep}{14pt}
+				%\hspace*{5mm}
+				%\vspace*{-6mm}
+				\caption{Prof. Dr. Galip TEPEHAN \,\, Captioning in landscape-oriented pages:
+					the most important aspect is to align the lines horizontally.}
+				\begin{center}
+					\vspace{-6mm}
+					\begin{tabular}{lccrrrrr}
+						\hline\hline
+						\multirow{2}{*}{Parametre} & \multirow{2}{*}{Column 2} & \multirow{2}{*}{Column 3} & \multicolumn{3}{c|}{Column 4} & \multicolumn{2}{c}{Column 5}\\ \cline{4-8}
+						& & & Subcolumn & Subcolumn & Subcolumn & Subcolumn & Subcolumn\\
+						\hline
+						Row 1 & -7.680442 & 7.6986348 & 0.00 & 0.00 & 0.00 & 12 & 12 \\
+						Row 2 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+						Row 3 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+						Row 4 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+						Row 5 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+						Row 6 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+						Row 7 & 37.174357 & 37.16192697 & 0.00 & 0.00 & 0.00 & 0 & 24 \\
+						Row 8 & 140 & - & 0.50 & 0.00 & 0.00 & 0 & 0 \\
+					\end{tabular}
+				\end{center}
+				\begin{center}
+					\label{Table2.4}
+				\end{center}
+			}
+		\end{table*}
+% Set the page number on the right side for even numbered pages
+		\begin{tikzpicture}[remember picture,overlay]
+		\node[xshift=-25mm+148.5mm, yshift=2mm-210mm+15mm] (number) at (current page text area.east) {\thepage};
+		\end{tikzpicture}
+%	\end{changemargin}
+\end{landscape}
+
+\begin{table}[!htbp] \centering
+	\caption{ Neighborhoods Visited }
+	\vspace{-3mm}
+	\label{}
+	\begin{tabular}{@{\extracolsep{5pt}} llrrr} 
+	\\[-1.8ex]\hline 
+		\hline \\[-1.8ex] 
+		\multicolumn{1}{c}{Variable} & \multicolumn{1}{c}{Values} & \multicolumn{1}{c}{Count} & \multicolumn{1}{c}{\%} & \multicolumn{1}{c}{Cum. \%} \\
+		\hline \\[-1.8ex] 
+		\multirow{ 4 }{*}{ visit }  &  FALSE  &  2  &  33.33  &  33.33  \\
+		\hhline{}  &  TRUE  &  3  &  50.00  &  83.33  \\
+		\hhline{}  &  NA  &  1  &  16.67  &  100.00  \\
+	    \hhline{}  &  Total  &  6  &  100.00  &    \\
+		\hline \\[-1.8ex] 
+	\end{tabular}
+\end{table}
+
+% Multi-page longtable example spreading couple of pages - SBÖ
+\begin{center}
+	\begin{longtable}{ccc}
+		%Here is the caption, the stuff in [] is the table of contents entry,
+		%the stuff in {} is the title that will appear on the first page of the
+		%table.
+		\caption[Feasible triples for a highly variable Grid]{Feasible triples
+			for highly variable Grid, MLMMH.} \label{Table2.6} \vspace{-1.75mm}\\
+		%This is the header for the first page of the table...
+		\hline\\[-2.45ex] \hline \\[-1.8ex] % Distancing of the hlines adjausted from the text 
+		\multicolumn{1}{c}{{Time (s)}} &
+		\multicolumn{1}{c}{{Triple chosen}} &
+		\multicolumn{1}{c}{{Other feasible triples}} \\[0.5ex] \hline
+		\\[-1.8ex]
+		\endfirsthead
+		
+		%This is the header for the remaining page(s) of the table...
+		\multicolumn{3}{c}{{\tablename} \textbf{\thetable{}} \textbf{(continued) :} Feasible triples
+			for highly variable Grid, MLMMH.} \\[0.5ex]
+		\hline\\[-2.45ex] \hline \\[-1.8ex]
+		\multicolumn{1}{c}{{Time (s)}} &
+		\multicolumn{1}{c}{{Triple chosen}} &
+		\multicolumn{1}{c}{{Other feasible triples}} \\[0.5ex] \hline
+		\\[-1.8ex]
+		\endhead
+		
+		%This is the footer for all pages except the last page of the table...
+		%\multicolumn{3}{l}{{Continued on Next Page\ldots}} \\
+		\\[-1.8ex] \hline
+		\endfoot
+		
+		%This is the footer for the last page of the table...
+		\\[-1.8ex] \hline
+		\endlastfoot
+		
+		%Now the data...
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\ \noalign{\penalty-5000}
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		% <data removed>
+		164700 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		0      & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745   & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+		5490   & (1, 12, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		8235   & (1, 12, 16470) & (1, 13, 13725), (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+	\end{longtable}
+\end{center}
